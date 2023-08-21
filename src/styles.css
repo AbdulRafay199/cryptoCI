@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+.hero{
+    height: 100vh;
+    background-color: #00150F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herotxt{
+  color: #00D094;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.animate{
+    animation-name: moveimg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.spinanimate{
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveimg{
+    0%{
+        transform: translateX(0em)
+    }
+    50%{
+        transform: translateX(3em)
+    }
+    100%{
+        transform: translateX(0em)
+    }
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg)
+    }
+    /* 50%{
+        transform: rotate(180deg)
+    } */
+    100%{
+        transform: rotate(360deg)
+    }
+}

@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #0f201b; 
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav.navbar-nav a{
+    padding: 20px;
+    margin: 0px 10px;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-size: 1.2rem;
+}
+
+.nav.navbar-nav a:hover{
+    border-bottom: 2px solid #00D094;
+    color: #00D094;
+    transition: 0.5s ease-in-out;
+}
+
+
+@media (max-width:1130px){
+    .nav.navbar-nav a{
+        padding: 5px;
+        margin: 0px 2px;
+    }
+}
+@media  (min-width:1130px) and (max-width:1330px){
+    .nav.navbar-nav a{
+        padding: 10px;
+        margin: 0px 10px;
+    }
+}

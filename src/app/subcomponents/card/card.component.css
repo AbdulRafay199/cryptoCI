@@ -1,0 +1,27 @@
+.outercard{
+    background-color: #0d221c;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: 0.5s ease all;
+    color: white;
+}
+
+
+.outercard:hover{
+    border: 2px solid #00D094;
+    color: #00D094;
+    transform: translateY(-0.7em);
+    transition: 0.5s ease all;
+}
+
+.outerimg{
+    background-color: #274139;
+    padding: 20px;
+    border-radius: 50px;
+}

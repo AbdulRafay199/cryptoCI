@@ -1,0 +1,46 @@
+.headingtxt{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+}
+.headingtxt span{
+    color: #00D094;
+}
+
+.outerbenefit{
+    background-color: #00150ff4;
+    padding: 130px;
+    /* height: 80vh; */
+}
+
+.outertextcard{
+    padding: 20px;
+    border: 1px solid rgb(85, 85, 85);
+    color: rgb(161, 160, 160);
+    border-radius: 15px;
+    box-shadow: 0px 12px 30px rgba(14, 4, 0, 0.24);
+    margin-top: 20px;
+}
+
+.firstcard{
+    background-color: #748a8417;
+    color: white;
+}
+
+.animate{
+    animation-name: moveimg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveimg{
+    0%{
+        transform: translateX(0em)
+    }
+    50%{
+        transform: translateX(4em)
+    }
+    100%{
+        transform: translateX(0em)
+    }
+}
