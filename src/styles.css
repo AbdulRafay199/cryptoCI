@@ -47,3 +47,28 @@
         transform: rotate(360deg)
     }
 }
+
+@media (max-width:500px){
+    .outerservice{
+        padding: 40px !important;
+    }
+    .outerbenefit{
+        padding: 40px !important;
+    }
+}
+@media (min-width:500px) and  (max-width:576px){
+    .outerservice{
+        padding: 60px !important;
+    }
+    .outerbenefit{
+        padding: 60px !important;
+    }
+}
+@media (min-width:576px) and  (max-width:992px){
+    .outerservice{
+        padding: 80px !important;
+    }
+    .outerbenefit{
+        padding: 80px !important;
+    }
+}

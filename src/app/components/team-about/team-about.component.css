@@ -1,0 +1,18 @@
+.outerservice{
+    background-color: #00150ff4;
+    padding: 130px;
+    /* height: 80vh; */
+}
+
+.headingtxt{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+}
+.headingtxt span{
+    color: #00D094;
+}
+
+.para{
+    color: rgb(170, 170, 170);
+}

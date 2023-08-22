@@ -1,0 +1,96 @@
+.headingtxt{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+}
+.headingtxt span{
+    color: #00D094;
+}
+
+.outerbenefit{
+    background-color: #00150ff4;
+    padding: 130px;
+    /* height: 80vh; */
+}
+
+.outertextcard{
+    padding: 30px;
+    /* border: 1px solid rgb(85, 85, 85); */
+    color: rgb(161, 160, 160);
+    border-radius: 15px;
+    /* box-shadow: 0px 12px 30px rgba(14, 4, 0, 0.24); */
+    margin-bottom: 20px;
+}
+
+.rightcard{
+    background-image: linear-gradient(to right, #748a8417, transparent);
+    /* background-color: #748a8417; */
+    color: white;
+}
+.leftcard{
+    background-image: linear-gradient(to left, #748a8417, transparent);
+    /* background-color: #748a8417; */
+    color: white;
+}
+
+.outertextcard h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.outertextcard p{
+    color: rgb(170, 170, 170);
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.roadmap__wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.roadmap__wrapper:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 10px;
+    background-color: #748a8417;
+    border-radius: 8px;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.roadmap__wrapper:after {
+    position: absolute;
+    content: "";
+    height: 40%;
+    width: 10px;
+    background-color: #00D094;
+    border-radius: 8px;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+@media (max-width:992px){
+    .roadmap__wrapper:after {
+        display: none;
+    }
+    .roadmap__wrapper:before {
+        display: none;
+    }
+    .hide{
+        visibility: hidden;
+        display: none;
+    }
+}
