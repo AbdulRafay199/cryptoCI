@@ -1,4 +1,4 @@
-<!-- <cdk-accordion class="example-accordion">
+<cdk-accordion class="example-accordion">
     <cdk-accordion-item
       *ngFor="let item of items; let index = index;"
       #accordionItem="cdkAccordionItem"
@@ -9,10 +9,15 @@
       [attr.aria-expanded]="accordionItem.expanded"
       [attr.aria-controls]="'accordion-body-' + index">
       <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
-        {{ item }}
-        <span class="example-accordion-item-description">
-          Click to {{ accordionItem.expanded ? 'close' : 'open' }}
+        {{ item.question }}
+        <span class="example-accordion-item-description" *ngIf="accordionItem.expanded else elseblock">
+          <i class="pi pi-minus-circle text-light fs-4"></i>
         </span>
+        <ng-template #elseblock>
+          <span class="example-accordion-item-description">
+            <i class="pi pi-plus-circle text-light fs-4"></i>
+          </span>
+        </ng-template>
       </div>
       <div
         class="example-accordion-item-body"
@@ -20,9 +25,7 @@
         [style.display]="accordionItem.expanded ? '' : 'none'"
         [attr.id]="'accordion-body-' + index"
         [attr.aria-labelledby]="'accordion-header-' + index">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
-        excepturi incidunt ipsum deleniti labore, tempore non nam doloribus blanditiis
-        veritatis illo autem iure aliquid ullam rem tenetur deserunt velit culpa?
+        {{item.answer}}
       </div>
     </cdk-accordion-item>
-  </cdk-accordion> -->
+  </cdk-accordion>

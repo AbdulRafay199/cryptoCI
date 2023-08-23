@@ -50,6 +50,9 @@
 
 @media (max-width:992px){
   .heroimg{
-    display: none;
+    /* display: none; */
+    position: absolute;
+    opacity: 0.1;
+    top: -250px;
   }
 }

@@ -1,6 +1,7 @@
 .headingtxt{
     font-size: 2.5rem;
     font-weight: 800;
+    text-align: center;
     color: white;
 }
 .headingtxt span{
@@ -8,6 +9,7 @@
 }
 
 .para{
+    text-align: center;
     color: rgb(153, 153, 153);
 }
 
