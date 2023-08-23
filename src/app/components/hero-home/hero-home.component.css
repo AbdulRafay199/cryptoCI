@@ -36,15 +36,15 @@
 @media (max-width:576px){
   .herotxt{
     font-size: 3rem;
-    text-align: center;
+    text-align: start;
   }
   
   .heropara{
     font-size: 2rem;
-    text-align: center;
+    text-align: start;
   }
   .heropara2{
-    text-align: center;
+    text-align: start;
   }
 }
 
