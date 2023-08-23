@@ -1,0 +1,55 @@
+@import "~primeicons/primeicons.css";
+
+
+.outerdiv{
+    /* padding: 80px; */
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00150ff4;
+}
+
+.txtdiv h2{
+    font-size: 3.3rem;
+    font-weight: 800;
+    color: white;
+}
+.txtdiv span{
+    color: #00D094;
+}
+
+.icondiv{
+    /* padding: 20px; */
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #112721;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    background-color: #2f443f;
+    border-color: rgb(134, 134, 134);
+    color: #bdbdbd;
+    padding: 10px;
+}
+.input::placeholder{
+    color: #bdbdbd;
+}
+
+.joinbtn{
+    background-color: #00D094;
+    color: white;
+    border-radius: 10px;                   
+    padding: 10px 60px;
+}
+
+.joinbtn:hover{
+    background-color: #03b381;
+    color: white;
+    transition: 0.5s ease all;
+}

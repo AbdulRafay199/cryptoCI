@@ -19,6 +19,14 @@ import { HeroBlogComponent } from './components/hero-blog/hero-blog.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { BloglistComponent } from './components/bloglist/bloglist.component';
 import { BlogcardComponent } from './subcomponents/blogcard/blogcard.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { HeroContactComponent } from './components/hero-contact/hero-contact.component';
+import { ContactformComponent } from './components/contactform/contactform.component';
+import { FaqComponent } from './pages/faq/faq.component';
+import { HeroFaqComponent } from './components/hero-faq/hero-faq.component';
+import { FaqsectionComponent } from './components/faqsection/faqsection.component';
+import { FaqaccordionComponent } from './subcomponents/faqaccordion/faqaccordion.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -38,11 +46,19 @@ import { BlogcardComponent } from './subcomponents/blogcard/blogcard.component';
     HeroBlogComponent,
     BlogComponent,
     BloglistComponent,
-    BlogcardComponent
+    BlogcardComponent,
+    ContactComponent,
+    HeroContactComponent,
+    ContactformComponent,
+    FaqComponent,
+    HeroFaqComponent,
+    FaqsectionComponent,
+    FaqaccordionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
