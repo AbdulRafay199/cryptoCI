@@ -18,6 +18,13 @@
     padding: 80px 130px;
 }
 
+@media (max-width:576px){
+    .outerbenefit{
+        background-color: #00150F;
+        padding: 40px 130px;
+    }
+}
+
 .div1{
     padding: 30px;
     padding-top: 10px;

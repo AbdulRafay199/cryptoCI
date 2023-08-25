@@ -1,0 +1,70 @@
+.outerservice{
+    background-color: #00150f;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerarticle{
+    padding: 3rem;
+    background-color: #1B2D29;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 800px;
+}
+
+.btn-close:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 576px){
+    .outerarticle{
+        padding: 1rem;
+        background-color: transparent;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        border-radius: 20px;
+        width: 800px;
+    }
+}
+
+.titleblog{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 30px 0px;
+    color: #00D094;
+}
+
+.parablog{
+    color: rgb(171, 171, 171);
+    margin-bottom: 15px;
+}
+
+.headingblog{
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.combineblog{
+    margin: 30px 0px;
+}
+
+.joinbtn{
+    border: 1px solid #00D094;
+    color: #00D094;
+    border-radius: 10px;                   
+    padding: 10px 20px;
+}
+
+.joinbtn:hover{
+    background-color: #00D094;
+    color: white;
+    transition: 0.5s ease all;
+}

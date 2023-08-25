@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,Output, EventEmitter,Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-blogcard',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class BlogcardComponent {
 
+  @Input() item={
+    title:"",
+    para:"",
+    article:[{}]
+  };
+  @Output() readmore = new EventEmitter<any>()
+  
 }

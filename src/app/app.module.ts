@@ -27,6 +27,8 @@ import { HeroFaqComponent } from './components/hero-faq/hero-faq.component';
 import { FaqsectionComponent } from './components/faqsection/faqsection.component';
 import { FaqaccordionComponent } from './subcomponents/faqaccordion/faqaccordion.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ArticleComponent } from './pages/article/article.component';
+import { HeroArticleComponent } from './components/hero-article/hero-article.component';
 // import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
@@ -54,6 +56,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FaqComponent,
     HeroFaqComponent,
     FaqsectionComponent,
+    ArticleComponent,
+    HeroArticleComponent,
     // FooterComponent
   ],
   imports: [

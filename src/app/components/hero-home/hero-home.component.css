@@ -1,6 +1,10 @@
 .hero{
     height: 100vh;
     background-color: #00150F;
+    background-image: url("https://thetork.com/demos/html/bitrader/assets/images/banner/home1/bg-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;

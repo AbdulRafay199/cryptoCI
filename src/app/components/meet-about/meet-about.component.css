@@ -16,6 +16,10 @@
     padding: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-image: url("https://thetork.com/demos/html/bitrader/assets/images/banner/home1/bg-dark.png");
+    background-repeat: no-repeat;
+    background-position: center -600px;
+    background-size: cover;
     /* height: 80vh; */
 }
 

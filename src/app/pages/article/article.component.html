@@ -1,0 +1,50 @@
+<app-hero-article></app-hero-article>
+<section class="outerservice">
+    <div class="container outerarticle position-relative">
+        <span class="position-absolute top-0 start-100 translate-middle p-3 bg-light rounded-circle btn-close" style="border: 5px solid #00150f;" (click)="goback()">
+            <span class="visually-hidden">New alerts</span>
+          </span>        
+        <div class="d-flex justify-content-center align-items-center w-100">
+            <img class="img-fluid mt-5" src="https://thetork.com/demos/html/bitrader/assets/images/blog/details/1.png" alt="">
+        </div>
+        <div *ngFor="let item of myblog">
+            <ng-template [ngIf]="item.type === 'title'">
+                <h2 class="titleblog">{{item.title}}</h2>
+            </ng-template>
+            <ng-template [ngIf]="item.type === 'para'">
+                <p class="parablog">{{item.para}}</p>
+            </ng-template>
+            
+            <ng-template [ngIf]="item.type === 'heading'">
+                <h5 class="headingblog">{{item.heading}}</h5>
+            </ng-template>
+
+            <ng-template [ngIf]="item.type === 'combine'">
+                <div class="row g-4 my-3">
+                    <div class="col-sm-12 col-lg-6">
+                        <h5 class="headingblog m-0 mb-2">{{item.heading}}</h5>
+                        <p class="parablog m-0">{{item.para}}</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <img class="img-fluid" src="https://thetork.com/demos/html/bitrader/assets/images/blog/details/2.png" alt="">
+                    </div>
+                </div>
+            </ng-template>
+
+            <ng-template [ngIf]="item.type === 'combine2'">
+                <div class="row g-4 my-3">
+                    <div class="col-sm-12 col-lg-6">
+                        <img class="img-fluid" src="https://thetork.com/demos/html/bitrader/assets/images/blog/details/2.png" alt="">
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <h5 class="headingblog m-0 mb-2">{{item.heading}}</h5>
+                        <p class="parablog m-0">{{item.para}}</p>
+                    </div>
+                </div>
+            </ng-template>
+        </div>
+        <div class="d-flex justify-content-center align-items-center w-100 mt-5">
+            <button class="btn joinbtn" (click)="goback()">Go Back</button>
+        </div>
+    </div>
+</section>

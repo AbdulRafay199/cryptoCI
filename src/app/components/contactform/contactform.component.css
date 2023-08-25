@@ -1,12 +1,27 @@
 
 .outerdiv{
-    /* padding: 80px; */
     padding: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #00150ff4;
+}
+
+@media (max-width: 576px){
+    .outerdiv{
+        padding: 80px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #00150ff4;
+    }
+}
+
+.hoverclr:hover{
+    color: #00D094;
+    transition: 0.5s ease all;
 }
 
 .txtdiv h2{
@@ -20,26 +35,13 @@
 
 .icondiv{
     /* padding: 20px; */
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     background-color: #112721;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@media (max-width:400px){
-    .icondiv{
-        /* padding: 20px; */
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        background-color: #112721;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 .input{

@@ -9,7 +9,9 @@
       [attr.aria-expanded]="accordionItem.expanded"
       [attr.aria-controls]="'accordion-body-' + index">
       <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
-        {{ item.question }}
+        <span style="margin-right: 10px;">
+          {{ item.question }}
+        </span>
         <span class="example-accordion-item-description" *ngIf="accordionItem.expanded else elseblock">
           <i class="pi pi-minus-circle text-light fs-4"></i>
         </span>
