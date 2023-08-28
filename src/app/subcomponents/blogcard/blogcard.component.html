@@ -1,10 +1,10 @@
-<div class="card" style="width: 19rem;">
+<div class="card">
     <div class="imgcontainer">
         <img src="https://thetork.com/demos/html/bitrader/assets/images/blog/1.png" class="card-img-top" alt="...">
     </div>
     <div class="card-body p-0">
       <h5 class="card-title">{{item.title}}</h5>
-      <p class="card-text">{{item.para}}...</p>
+      <p class="card-text">{{item.para.slice(0,160)}}...</p>
       <a (click)="readmore.emit(item.article)" class="btn joinbtn">Read More</a>
     </div>
   </div>

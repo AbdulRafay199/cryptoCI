@@ -2,7 +2,15 @@
     background-color: #1f332d;
     padding: 15px;
     border-radius: 20px !important;
+
 }
+
+@media (max-width: 992px){
+    .card{
+        /* width: 19rem; */
+    }
+}
+
 .card:hover img{
     transform: scale(1.05,1.05);
     transition: 0.5s ease all;

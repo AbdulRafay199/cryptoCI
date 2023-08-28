@@ -9,14 +9,18 @@
         </div>
         <div *ngFor="let item of myblog">
             <ng-template [ngIf]="item.type === 'title'">
-                <h2 class="titleblog">{{item.title}}</h2>
+                <h1 class="titleblog">{{item.title}}</h1>
             </ng-template>
             <ng-template [ngIf]="item.type === 'para'">
                 <p class="parablog">{{item.para}}</p>
             </ng-template>
             
             <ng-template [ngIf]="item.type === 'heading'">
-                <h5 class="headingblog">{{item.heading}}</h5>
+                <h4 class="headingblog">{{item.heading}}</h4>
+            </ng-template>
+
+            <ng-template [ngIf]="item.type === 'subheading'">
+                <h5 class="subheadingblog">{{item.subheading}}</h5>
             </ng-template>
 
             <ng-template [ngIf]="item.type === 'combine'">

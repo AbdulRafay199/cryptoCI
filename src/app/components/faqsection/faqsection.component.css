@@ -58,6 +58,10 @@
     color: rgb(153, 153, 153);
 }
 
+.smooth{
+    transition: 0.5s ease all;
+}
+
 .imgshadow::after {
     position: absolute;
     content: "";

@@ -10,6 +10,8 @@
     align-items: center;
 }
 
+
+
 .herotxt{
   color: #00D094;
   font-size: 4rem;
@@ -50,13 +52,35 @@
   .heropara2{
     text-align: start;
   }
+  .hero{
+    height: 135vh;
+    background-color: #00150F;
+    background-image: url("https://thetork.com/demos/html/bitrader/assets/images/banner/home1/bg-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media (max-width:992px){
-  .heroimg{
-    /* display: none; */
+@media (min-width:576px) and (max-width:992px){
+  /* .heroimg{
     position: absolute;
     opacity: 0.1;
     top: -250px;
+  } */
+
+  .hero{
+    height: 150vh;
+    background-color: #00150F;
+    background-image: url("https://thetork.com/demos/html/bitrader/assets/images/banner/home1/bg-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
