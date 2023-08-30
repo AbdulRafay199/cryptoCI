@@ -11,6 +11,8 @@ export class BloglistComponent {
   constructor(private router: Router) { }
 
    myblog = [{
+    articleimage:"../../../assets/blogimg/Second  Crypto Website/Cryptocurrency Investment Strategies/Hero Section.png",
+    image:"../../../assets/blogimg/Second  Crypto Website/Cryptocurrency Investment Strategies/1.png",
     title: "Cryptocurrency Investment Strategies: A Comprehensive Guide",
     para: "Investing in cryptocurrencies presents both opportunities and potential obstacles. Within this guide, we will delve into investment approaches that can assist you in effectively maneuvering through the ever-changing landscape of crypto investments. By doing so, you will be equipped to make informed decisions regarding your investments.",
     article: [
@@ -51,11 +53,9 @@ export class BloglistComponent {
         "para": "Earning passive income through staking or lending."
       },
       {
-        "type": "heading",
-        "heading": "The HODLing Strategy"
-      },
-      {
-        "type": "para",
+        "type": "combine",
+        "image":"../../../assets/blogimg/Second  Crypto Website/Cryptocurrency Investment Strategies/2.png",
+        "heading": "The HODLing Strategy",
         "para": "It refers to the practice of purchasing and holding cryptocurrencies for a period with the expectation of future growth. It is based on the idea that, over time, these digital assets have the potential to generate gains."
       },
       {
@@ -99,11 +99,9 @@ export class BloglistComponent {
         "para": "Consistency is key with DCA as it necessitates contributions over time to benefit from this investment strategy."
       },
       {
-        "type": "heading",
-        "heading": "The Swing Trading Strategy"
-      },
-      {
-        "type": "para",
+        "type": "combine2",
+        "image":"../../../assets/blogimg/Second  Crypto Website/Cryptocurrency Investment Strategies/3.png",
+        "heading": "The Swing Trading Strategy",
         "para": "It involves taking advantage of short to medium-term price movements in assets. Traders who employ this technique aim to buy during price dips and sell when prices reach their peaks."
       },
       {
@@ -124,7 +122,7 @@ export class BloglistComponent {
       },
       {
         "type": "heading",
-        "heading": "Day Trading"
+        "heading": "Day Trading",
       },
       {
         "type": "para",
@@ -262,6 +260,8 @@ export class BloglistComponent {
     },
 
     {
+        "articleimage":"../../../assets/blogimg/Second  Crypto Website/A Comprehensive Guide Tips for Success in Crypto Trading/Hero section/1.png",
+        "image":"../../../assets/blogimg/Second  Crypto Website/A Comprehensive Guide Tips for Success in Crypto Trading/3 photos/1.png",
         "title": "Tips for Success in Crypto Trading: Navigating Volatile Markets",
         "para": "The cryptocurrency market experiences frequent and unpredictable changes. By combining keen market perception, strategic foresight, and unyielding commitment, you can effectively ride these waves. This post will reveal the strategies employed by accomplished traders to keep ahead of market trends.",
         "article": [
@@ -282,11 +282,9 @@ export class BloglistComponent {
         "para": "One thing you must keep in mind is that cryptocurrency markets are prone to price fluctuations within periods of time. Volatility is a double-edged sword. It can bring opportunities for gains, but also increased risks. To effectively manage these risks and take advantage of market movements, having a thought-out trading strategy is essential."
         },
         {
-        "type": "subheading",
-        "subheading": "Enhance Your Skills in Market Analysis"
-        },
-        {
-        "type": "para",
+        "type": "combine",
+        "image":"../../../assets/blogimg/Second  Crypto Website/A Comprehensive Guide Tips for Success in Crypto Trading/3 photos/2.png",
+        "heading": "Enhance Your Skills in Market Analysis",
         "para": "Market analysis precedes any trading endeavors, being an essential component. To make well-informed decisions, spend time understanding technical analysis. Fundamental analysis entails examining technology, team, and impact potential. A thorough grasp of price charts and patterns is crucial for accurate technical analysis."
         },
         {
@@ -305,12 +303,10 @@ export class BloglistComponent {
         "type": "para",
         "para": "It's crucial to establish entry and exit points for each trade you make. Decide beforehand the profit you're aiming for and at what point you'll cut your losses. Making driven decisions during times of market volatility can often result in setbacks."
         },
-        {
-        "type": "subheading",
-        "subheading": "Incorporate Stop Loss and Take Profit Orders"
-        },
-        {
-        "type": "para",
+      {
+        "type": "combine2",
+        "image":"../../../assets/blogimg/Second  Crypto Website/A Comprehensive Guide Tips for Success in Crypto Trading/3 photos/3.png",
+        "heading": "Incorporate Stop Loss and Take Profit Orders",
         "para": "To effectively manage risks, it's crucial to make use of stop loss and take profit orders. A stop loss order automatically sells a cryptocurrency if its price reaches a level preventing losses. On the other hand, a take profit order ensures that you lock in profits when the price hits your target."
         },
         {
@@ -374,6 +370,8 @@ export class BloglistComponent {
 
 
         {
+            "articleimage":"../../../assets/blogimg/Second  Crypto Website/The Growing Acceptance of Cryptocurrency/Hero Section.png",
+            "image":"../../../assets/blogimg/Second  Crypto Website/The Growing Acceptance of Cryptocurrency/2.png",
             "title": "The Growing Acceptance of Cryptocurrency",
             "para": "The increasing acceptance and integration of cryptocurrencies by businesses and individuals is a development that has transformed the financial landscape. What initially started as a concept has now become a force revolutionizing how money, assets, and technology are perceived and utilized. In this blog post, we will explore the ways in which cryptocurrencies are being embraced by both entities and everyday people.",
             "article": [
@@ -401,12 +399,10 @@ export class BloglistComponent {
             "type": "para",
             "para": "From stores to global brands, the adoption of cryptocurrencies as a valid payment method is gaining momentum. Industry giants like Microsoft, Overstock, and Shopify have already incorporated cryptocurrency payments into their systems, providing customers with an alternative form of payment. This shift not only offers added convenience to consumers but also contributes to the wider acceptance of cryptocurrencies."
             },
-            {
-            "type": "heading",
-            "heading": "Simplifying International Transactions: A Global Advantage"
-            },
-            {
-            "type": "para",
+          {
+            "type": "combine",
+            "image":"../../../assets/blogimg/Second  Crypto Website/The Growing Acceptance of Cryptocurrency/1.png",
+            "heading": "Simplifying International Transactions: A Global Advantage",
             "para": "The complexities involved in trade transactions with currencies and intermediaries have long been a hindrance. However, digital currencies are streamlining cross-border transactions by removing unnecessary complications. Cryptocurrencies make this process more efficient, allowing businesses to carry out transactions across borders with lower fees and faster processing times. This enables companies to broaden their customer reach and enhance collaboration with partners."
             },
             {
@@ -425,12 +421,10 @@ export class BloglistComponent {
             "type": "para",
             "para": "Cryptocurrencies are opening up opportunities for services to reach underbanked populations worldwide. Individuals who lack access to banking systems can now engage in transactions, savings, and investment options. This inclusive approach has the potential to uplift communities."
             },
-            {
-            "type": "heading",
-            "heading": "Decentralized Finance (DeFi): Exploring New Horizons"
-            },
-            {
-            "type": "para",
+          {
+            "type": "combine2",
+            "image":"../../../assets/blogimg/Second  Crypto Website/The Growing Acceptance of Cryptocurrency/3.png",
+            "heading": "Decentralized Finance (DeFi): Exploring New Horizons",
             "para": "The emergence of DeFi platforms is revolutionizing the financial landscape by creating a permissionless ecosystem. People can lend their assets to earn interest, borrow funds without intermediaries, and participate in yield farming. This groundbreaking approach challenges traditional banking models while empowering users with control over their financial choices."
             },
             {
@@ -511,6 +505,8 @@ export class BloglistComponent {
 
 
         {
+            "articleimage":"../../../assets/blogimg/Second  Crypto Website/Discovering the Latest Breakthroughs in the Crypto World/Hero Section/1.png",
+            "image":"../../../assets/blogimg/Second  Crypto Website/Discovering the Latest Breakthroughs in the Crypto World/New folder/3.png",
             "title": "Discovering the Latest Breakthroughs in the Crypto World",
             "para": "Innovation is crucial in pushing the cryptocurrency landscape forward. The frontiers of finance are being pushed by Bitcoin's innovative spirit, reshaping what lies ahead. As we explore the crypto universe, we zero in on Bitcoin's persistent growth.",
             "article": [
@@ -531,12 +527,10 @@ export class BloglistComponent {
             "para": "Within the Bitcoin ecosystem, one innovation stands out as a beacon of progress: The Lightning Network. We take an in-depth look at this second layer solution designed to tackle scalability and transaction speed challenges. By enabling off-chain micropayments, the Lightning Network not only boosts Bitcoin's efficiency but also opens up new possibilities for lightning-fast transactions for everyday purchases."
             },
             {
-            "type": "heading",
-            "heading": "Taproot and Smart Contracts: Unleashing New Opportunities"
-            },
-            {
-            "type": "para",
-            "para": "Bitcoin's upgrade to Taproot introduces a level of sophistication to its contract capabilities. We delve into how Taproot enhances privacy, scalability, and enables contract execution. This innovative upgrade marks a stride towards facilitating a range of decentralized applications on the Bitcoin network."
+              "type": "combine",
+              "heading": "Taproot and Smart Contracts: Unleashing New Opportunities",
+              "image":"../../../assets/blogimg/Second  Crypto Website/Discovering the Latest Breakthroughs in the Crypto World/New folder/1.png",
+              "para": "Bitcoin's upgrade to Taproot introduces a level of sophistication to its contract capabilities. We delve into how Taproot enhances privacy, scalability, and enables contract execution. This innovative upgrade marks a stride towards facilitating a range of decentralized applications on the Bitcoin network."
             },
             {
             "type": "heading",
@@ -554,12 +548,10 @@ export class BloglistComponent {
             "type": "para",
             "para": "The idea of sidechains enhances Bitcoin's capabilities by allowing the creation of chains that can interact with the Bitcoin blockchain. In this exploration, we discuss how sidechains like RSK (Rootstock) enable the execution of contracts and decentralized applications (dApps) while leveraging the security of Bitcoin. Moreover, we touch upon the significance of chain compatibility in facilitating asset transfer and interoperability."
             },
-            {
-            "type": "heading",
-            "heading": "Schnorr Signatures: Advancing Privacy and Efficiency"
-            },
-            {
-            "type": "para",
+          {
+            "type": "combine2",
+            "image":"../../../assets/blogimg/Second  Crypto Website/Discovering the Latest Breakthroughs in the Crypto World/New folder/2.png",
+            "heading": "Schnorr Signatures: Advancing Privacy and Efficiency",
             "para": "In its quest to enhance privacy and efficiency, Bitcoin has embraced Schnorr signatures. We delve into how this cryptographic advancement combines signatures into a single signature, reducing transaction size and enhancing privacy. With Schnorr signatures, Bitcoin transactions become streamlined, cost-effective, and privacy-conscious."
             },
             {

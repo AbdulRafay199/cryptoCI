@@ -5,9 +5,9 @@
             <span class="visually-hidden">New alerts</span>
           </span>        
         <div class="d-flex justify-content-center align-items-center w-100">
-            <img class="img-fluid mt-5" src="https://thetork.com/demos/html/bitrader/assets/images/blog/details/1.png" alt="">
+            <img class="img-fluid mt-5" src={{myblog.articleimage}} alt="">
         </div>
-        <div *ngFor="let item of myblog">
+        <div *ngFor="let item of myblog.article">
             <ng-template [ngIf]="item.type === 'title'">
                 <h1 class="titleblog">{{item.title}}</h1>
             </ng-template>
@@ -30,7 +30,7 @@
                         <p class="parablog m-0">{{item.para}}</p>
                     </div>
                     <div class="col-sm-12 col-lg-6">
-                        <img class="img-fluid" src="https://thetork.com/demos/html/bitrader/assets/images/blog/details/2.png" alt="">
+                        <img class="img-fluid" src={{item.image}} alt="">
                     </div>
                 </div>
             </ng-template>
@@ -38,7 +38,7 @@
             <ng-template [ngIf]="item.type === 'combine2'">
                 <div class="row g-4 my-3">
                     <div class="col-sm-12 col-lg-6">
-                        <img class="img-fluid" src="https://thetork.com/demos/html/bitrader/assets/images/blog/details/2.png" alt="">
+                        <img class="img-fluid" src={{item.image}} alt="">
                     </div>
                     <div class="col-sm-12 col-lg-6">
                         <h5 class="headingblog m-0 mb-2">{{item.heading}}</h5>

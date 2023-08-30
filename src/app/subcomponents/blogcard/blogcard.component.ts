@@ -9,6 +9,7 @@ import { Component,Output, EventEmitter,Input } from '@angular/core';
 export class BlogcardComponent {
 
   @Input() item={
+    image:"",
     title:"",
     para:"",
     article:[{}]
