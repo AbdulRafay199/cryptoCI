@@ -65,7 +65,7 @@
   }
 }
 
-@media (min-width:576px) and (max-width:992px){
+@media (max-width:992px){
   /* .heroimg{
     position: absolute;
     opacity: 0.1;
@@ -73,7 +73,7 @@
   } */
 
   .hero{
-    height: 150vh;
+    height: auto;
     background-color: #00150F;
     background-image: url("https://thetork.com/demos/html/bitrader/assets/images/banner/home1/bg-dark.png");
     background-repeat: no-repeat;
